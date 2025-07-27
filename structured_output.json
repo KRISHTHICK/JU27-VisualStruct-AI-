@@ -1,0 +1,26 @@
+{
+  "Step": "A",
+  "Process": "All Warehouse Issued Materials",
+  "Fields": [
+    {
+      "label": "Quantity (User 1)",
+      "value": "30.00",
+      "box_color": "yellow"
+    },
+    {
+      "label": "Is the quantity of Mass 1 ≥ 2 approx. 30 kg...",
+      "value": "Yes",
+      "box_color": "blue"
+    }
+  ],
+  "Rules": [
+    {
+      "pattern": "Yellow box with decimal = numeric input",
+      "applied": true
+    },
+    {
+      "pattern": "Blue checkbox = Yes/No decision",
+      "applied": true
+    }
+  ]
+}
